@@ -1,8 +1,6 @@
 package com.example.a86130.x_day02_a.view;
 
 import com.example.a86130.x_day02_a.bean.DatasBean;
-
-import java.util.ArrayList;
 import java.util.List;
 
 /**
