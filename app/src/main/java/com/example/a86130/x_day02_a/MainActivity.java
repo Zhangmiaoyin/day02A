@@ -61,12 +61,12 @@ public class MainActivity extends AppCompatActivity implements NetView {
                     Log.i(TAG, "onclick: " + position + bt);
                     DatasBean datasBean = projectBeans.get(position);
                     dataPresenter.insert(datasBean);
-                    Toast.makeText(MainActivity.this, "插入成功", Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(MainActivity.this, "插入成功", Toast.LENGTH_SHORT).show();
                 } else {
                     Log.i(TAG, "onclick: " + position + bt);
                     DatasBean datasBean = projectBeans.get(position);
                     dataPresenter.delete(datasBean);
-                    Toast.makeText(MainActivity.this, "取消關注", Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(MainActivity.this, "取消關注", Toast.LENGTH_SHORT).show();
                 }
             }
         });
